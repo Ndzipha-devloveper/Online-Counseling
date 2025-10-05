@@ -135,4 +135,4 @@ Together, we build a platform that’s not just functional, but meaningful. Ever
 
 ## 🙏 **Acknowledgments**
 
-We build this project with *empathy*, *teamwork*, and *intention*.  Special thanks to **Luxolo Gqadu**, whose support and guidance helped shape the direction and polish of this platform.
+We build this project with *empathy*, *teamwork*, and *intention*.  Special thanks to **Luxolo Gqadu [](https://github.com/Luwieza)e**, whose support and guidance helped shape the direction and polish of this platform.
