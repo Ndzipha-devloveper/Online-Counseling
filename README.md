@@ -25,7 +25,8 @@ Traditional counseling often comes with barriers. Our platform helps solve these
 
 Every section of the site—from the *mission statement* to the *contact form*—is built with **empathy**, **clarity**, and **professional polish**. We want users to feel *seen*, *supported*, and *safe*.
 
-
+🌐 Live Site
+https://ndzipha-devloveper.github.io/Online-Counseling/
 
 ## 🛠️ **Tech Stack**
 
