@@ -84,7 +84,7 @@ Every section of the siteâ€”from the *mission statement* to the *contact form*â€
 
 Our group consists of **10 dedicated members**, each playing a vital role in building this platform with *empathy*, *professionalism*, and *technical precision*.
 
-- **Siyamthanda Ndzipha (Edison)** leads **frontend development** and **UI/UX design**. He builds the layout, ensures responsiveness across devices, chooses calming color palettes, crafts wireframes, and makes sure the site is visually accessible and emotionally supportive.
+- **Siyamthanda Ndzipha** leads **frontend development** and **UI/UX design**. He builds the layout, ensures responsiveness across devices, chooses calming color palettes, crafts wireframes, and makes sure the site is visually accessible and emotionally supportive.
 
 - A few teammates focus on **backend development**, using Python frameworks to set up routing, handle form submissions, and connect the frontend to a secure SQLite database.
 
