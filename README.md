@@ -135,4 +135,4 @@ Together, we build a platform that’s not just functional, but meaningful. Ever
 
 ## 🙏 **Acknowledgments**
 
-We build this project with *empathy*, *teamwork*, and *intention*. We thank our mentors, classmates, and the people who inspire this work. Special thanks to **Luxolo Gqadu**, whose support and guidance helped shape the direction and polish of this platform. Every line of code moves us closer to **safer**, **more supportive** digital spaces—for **everyone**.
+We build this project with *empathy*, *teamwork*, and *intention*.  Special thanks to **Luxolo Gqadu**, whose support and guidance helped shape the direction and polish of this platform.
