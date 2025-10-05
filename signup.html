@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Online Counseling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
 
+    <!--Navigation links Section-->
+    <nav>
+      <a href="/index.html" class="logo">CounselCare</a>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/how-it-works.html">HOW IT WORKS</a></li>
+        <li><a href="/contact.html">CONTACT US</a></li>
+        <li><a href="/about.html">ABOUT US</a></li>
+        <li><a href="/login.html" class="login-btn">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<!--Sign Up Form-->
+  <main>
+    <div class="auth-container">
+      <h2>Create Your Account</h2>
+      <form id="signupForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </div>
+        <button type="submit" class="btn" style="width: 100%;">Sign Up</button>
+      </form>
+
+      <div class="social-login">
+        <p>Or sign up with</p>
+        <div class="social-buttons">
+          <button class="social-btn" id="googleSignup">
+            <span>G</span> Google
+          </button>
+          <button class="social-btn" id="microsoftSignup">
+            <span>M</span> Microsoft
+          </button>
+        </div>
+      </div>
+
+      <!--Footer Section-->
+      <div class="auth-footer">
+        Already have an account? <a href="/login.html">Login</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About</h3>
+          <ul>
+            <li><a href="/about.html">Our Mission</a></li>
+            <li><a href="/about.html">Careers</a></li>
+            <li><a href="/about.html">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Individual Therapy</a></li>
+            <li><a href="#">Couples Counseling</a></li>
+            <li><a href="#">Group Sessions</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="/contact.html">Support</a></li>
+            <li><a href="/contact.html">Emergency</a></li>
+            <li><a href="/contact.html">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>FAQ</h3>
+          <ul>
+            <li><a href="#">Getting Started</a></li>
+            <li><a href="#">Billing</a></li>
+            <li><a href="#">Privacy & Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 OnlineCounseling. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
