@@ -1,103 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <link rel ="stylesheet" href = "styles.css">
-    <title>Online Counseling</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Counseling - Professional Therapy from Home</title>
+
+  <!-- My  Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-
 <body>
-    <header>
 
-        <!---Navigation bar-->
+  <!-- ======= HEADER Section and Nav ======= -->
+  <header>
+    <nav>
+      <!-- Logo link to homepage -->
+      <a href="/index.html" class="logo">CounselCare</a>
 
-        <h1 id="Heading">Online Counseling Service</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+      <!-- Mobile View -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-            </ul>
-        </nav>
-    </header>
+      <!-- Nav Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/how-it-works.html">HOW IT WORKS</a></li>
+        <li><a href="/contact.html">CONTACT US</a></li>
+        <li><a href="/about.html">ABOUT US</a></li>
+        <li><a href="/login.html" class="login-btn">Login</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!---Section For Main Content-->
+  <!-- ======= MAIN CONTENT ======= -->
+  <main>
 
-    < <section class="hero">
+    <!-- Hero section with slideshow and CTA -->
+    <section class="hero">
+      <div class="slideshow">
+          
+        <!-- Slideshow images (styled via CSS) -->
+        <div class="slide slide-1 active"></div>
+        <div class="slide slide-2"></div>
+        <div class="slide slide-3"></div>
+      </div>
+
+      <!-- Hero text and CTA button -->
+      <div class="hero-content">
         <h1>Online Counseling Services</h1>
-        <p>Professional therapy from the comfort of your ho</p>
-        <button class ="btnBook">Get Started</button>
-        </section>
+        <p>Professional therapy from the comfort of your home</p>
+        <a href="/signup.html" class="btn">Get Started</a>
+      </div>
+    </section>
 
-        <section id="slideshow">
-            <h2>What counseling Looks Like</h2>
-            <div class="sldeshow-container">
-                <img src="images/ema.jpg" alt="Photo1" class ="slide-img">
-                <img src="images/deposit.jpg" alt="Photo2" class ="slide-img">
-                <img src="images/images (2).jpg" alt="Photo3" class ="slide-img">
-                <img src="images/images (3).jpg" alt="Photo4" class ="slide-img">
-                <img src="images/images.jpg" alt="Photo5" class ="slide-img">
-            </div>
-        </section>
-        <!--Feature Highlights-->
-        <section class = "features">
-            <div class ="features card">
-                <h3>Convenient and Secure</h3>
-                <p> Access therapy session through our secure platform</p> 
-            </div>
+    <!-- Features section -->
+    <section class="features">
+      <div class="container">
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card">
+            <div class="feature-icon">🎧</div>
+            <h3>Experienced Therapists</h3>
+            <p>Get matched with a licensed therapist who meets your needs.</p>
+          </div>
+            
+          <!-- Feature 2 Section -->
+          <div class="feature-card">
+            <div class="feature-icon">💻</div>
+            <h3>Convenient & Secure</h3>
+            <p>Access therapy sessions through our private and secure platform</p>
+          </div>
+            
+          <!-- Feature 3 Section -->
+          <div class="feature-card">
+            <div class="feature-icon">📅</div>
             <h3>Flexible Scheduling</h3>
-            <p>Choose a time that works for you and attend sessions from anywhere</p>
-        </section>
+            <p>Choose a time that works for you with evening and weekend sessions available</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section>
-            <h2>Ready to Start Your Session?</h2>
-            <button class = "btnBookNow">Book Now</button>
-        </section>
+    <!-- Call-to-action section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready To Start Your Session?</h2>
+        <a href="/bookings.html" class="btn">Book Now</a>
+      </div>
+    </section>
+  </main>
 
-        <!-- Footer Section-->
-        <footer>
+  <!-- ======= Footer  Section ======= -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+          
+        <!--  About column:  -->
+        <div class="footer-section">
+          <h3>About</h3>
+          <ul>
+            <li><a href="/about.html">Our Mission</a></li>
+            <li><a href="/about.html">Careers</a></li>
+            <li><a href="/about.html">Our Team</a></li>
+          </ul>
+        </div>
+        <!--  Services column:  -->
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Individual Therapy</a></li>
+            <li><a href="#">Couples Counseling</a></li>
+            <li><a href="#">Group Sessions</a></li>
+          </ul>
+        </div>
+        <!-- Contact column:  -->
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="/contact.html">Support</a></li>
+            <li><a href="/contact.html">Emergency</a></li>
+            <li><a href="/contact.html">Feedback</a></li>
+          </ul>
+        </div>
+          
+        <!-- FAQ Column -->
+        <div class="footer-section">
+          <h3>FAQ</h3>
+          <ul>
+            <li><a href="#">Getting Started</a></li>
+            <li><a href="#">Billing</a></li>
+            <li><a href="#">Privacy & Security</a></li>
+          </ul>
+        </div>
+      </div>
 
-            <div class = "footer-column">
-                <h4>About Us</h4>
-                <ul>
-                    <li><a href = "#">Our Mission</a></li>
-                    <li><a href = "#">Careers</a></li>
-                    <li><a href = "#">Our Teams</a></li>
+      <!-- Footer bottom line -->
+      <div class="footer-bottom">
+        <p>&copy; 2025 OnlineCounseling. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
 
-                    <h4>Services</h4>
-                    <li><a href = "#">Individuak Therapy</a></li>
-                    <li><a href = "#">Couples</a></li>
-                    <li><a href = "#">GrouP Sessions</a></li>
-                </ul>
-            </div>
-
-            <div class = "footer-column">
-            <h4>Contact</h4>
-                <ul>
-                    <li><a href = "#">Support </a></li>
-                    <li><a href ="#">Emergency</a></li>
-                    <li><a href ="#">Feedback</a></li>
-                </ul>
-            </div>
-
-            <div class = "footer-column">
-            <h4>FAQ</h4>
-            <ul>
-                <li><a href = "#"> Getting Started </a></li>
-                <li><a href = "#"> Privacy & Security </a></li>
-                <li><a href = "#"> Billing </a></li>
-            </ul>
-            </div>
-            <p> 2025 OnlineCounseling. All rights reserved</p>
-        </footer>
+  <!-- Link to external JavaScript file -->
+  <script src="/js/main.js"></script>
 </body>
-
 </html>
-
-
-
-
