@@ -1,160 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Online Counseling - Professional Therapy from Home</title>
-
-  <!-- My  Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Link to external CSS file -->
- <link rel="stylesheet" href="/style.css">
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
-<body>
+<body style="margin:0; padding:0; box-sizing:border-box; font-family:'Open Sans', sans-serif; background-color:#F5F7FA; color:#333333; line-height:1.6;">
 
-  <!-- ======= HEADER Section and Nav ======= -->
-  <header>
-    <nav>
-      <!-- Logo link to homepage -->
-      <a href="/index.html" class="logo">CounselCare</a>
-
-      <!-- Mobile View -->
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+  <!-- Header -->
+  <header style="background:#6C5CE7; padding:15px 0; position:sticky; top:0; z-index:1000; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+    <nav style="display:flex; justify-content:space-between; align-items:center; max-width:1200px; margin:0 auto; padding:0 20px;">
+      <a href="/index.html" style="color:#FFFFFF; font-size:24px; font-weight:bold; font-family:'Montserrat', sans-serif; text-decoration:none;">Logo</a>
+      <div id="hamburger" style="display:flex; flex-direction:column; cursor:pointer; gap:5px;">
+        <span style="width:25px; height:3px; background:#FFFFFF; border-radius:2px;"></span>
+        <span style="width:25px; height:3px; background:#FFFFFF; border-radius:2px;"></span>
+        <span style="width:25px; height:3px; background:#FFFFFF; border-radius:2px;"></span>
       </div>
-
-      <!-- Nav Links -->
-      <ul class="nav-links" id="navLinks">
-        <li><a href="/index.html">HOME</a></li>
-        <li><a href="/how-it-works.html">HOW IT WORKS</a></li>
-        <li><a href="/contact.html">CONTACT US</a></li>
-        <li><a href="/about.html">ABOUT US</a></li>
-        <li><a href="/login.html" class="login-btn">Login</a></li>
+      <ul id="navLinks" style="display:flex; list-style:none; gap:30px; align-items:center; margin:0;">
+        <li><a href="/index.html" style="color:#FFFFFF; text-decoration:none; font-size:14px; font-weight:500;">HOME</a></li>
+        <li><a href="/how-it-works.html" style="color:#FFFFFF; text-decoration:none; font-size:14px; font-weight:500;">HOW IT WORKS</a></li>
+        <li><a href="/contact.html" style="color:#FFFFFF; text-decoration:none; font-size:14px; font-weight:500;">CONTACT US</a></li>
+        <li><a href="/about.html" style="color:#FFFFFF; text-decoration:none; font-size:14px; font-weight:500;">ABOUT US</a></li>
+        <li><a href="/login.html" style="border:2px solid #FFFFFF; padding:8px 30px; border-radius:25px; color:#FFFFFF; text-decoration:none;">Login</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- ======= MAIN CONTENT ======= -->
+  <!-- Hero Section -->
   <main>
-
-    <!-- Hero section with slideshow and CTA -->
-    <section class="hero">
-      <div class="slideshow">
-          
-        <!-- Slideshow images (styled via CSS) -->
-        <div class="slide slide-1 active"></div>
-        <div class="slide slide-2"></div>
-        <div class="slide slide-3"></div>
-      </div>
-
-      <!-- Hero text and CTA button -->
-      <div class="hero-content">
-        <h1>Online Counseling Services</h1>
-        <p>Professional therapy from the comfort of your home</p>
-        <a href="/signup.html" class="btn">Get Started</a>
+    <section style="position:relative; height:70vh; min-height:500px; display:flex; align-items:center; justify-content:center; text-align:center; color:#FFFFFF; background-image:url('https://images.pexels.com/photos/7176026/pexels-photo-7176026.jpeg?auto=compress&cs=tinysrgb&w=1920'); background-size:cover; background-position:center;">
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.4);"></div>
+      <div style="position:relative; z-index:10; max-width:800px; padding:0 20px;">
+        <h1 style="font-size:56px; margin-bottom:20px; font-weight:600; font-family:'Montserrat', sans-serif;">Online Counseling Services</h1>
+        <p style="font-size:20px; margin-bottom:30px;">Professional therapy from the comfort of your home</p>
+        <a href="/signup.html" style="display:inline-block; padding:14px 40px; background:#6C5CE7; color:#FFFFFF; text-decoration:none; border-radius:5px; font-weight:600; font-size:16px;">Get Started</a>
       </div>
     </section>
 
-    <!-- Features section -->
-    <section class="features">
-      <div class="container">
-        <div class="features-grid">
-          <!-- Feature 1 -->
-          <div class="feature-card">
-            <div class="feature-icon">🎧</div>
-            <h3>Experienced Therapists</h3>
-            <p>Get matched with a licensed therapist who meets your needs.</p>
+    <!-- Features Section -->
+    <section style="padding:80px 0; background:#F5F7FA;">
+      <div style="max-width:1200px; margin:0 auto; padding:0 20px;">
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:30px; margin-top:40px;">
+          <div style="background:#FFFFFF; padding:40px 30px; border-radius:10px; text-align:center; box-shadow:0 5px 20px rgba(0,0,0,0.08);">
+            <div style="font-size:48px; margin-bottom:20px; color:#6C5CE7;">🎧</div>
+            <h3 style="font-size:20px; margin-bottom:15px; color:#333333;">Experienced Therapists</h3>
+            <p style="color:#636E72; font-size:14px;">Get matched with a licensed therapist who meets your needs.</p>
           </div>
-            
-          <!-- Feature 2 Section -->
-          <div class="feature-card">
-            <div class="feature-icon">💻</div>
-            <h3>Convenient & Secure</h3>
-            <p>Access therapy sessions through our private and secure platform</p>
+          <div style="background:#FFFFFF; padding:40px 30px; border-radius:10px; text-align:center; box-shadow:0 5px 20px rgba(0,0,0,0.08);">
+            <div style="font-size:48px; margin-bottom:20px; color:#6C5CE7;">💻</div>
+            <h3 style="font-size:20px; margin-bottom:15px; color:#333333;">Convenient & Secure</h3>
+            <p style="color:#636E72; font-size:14px;">Access therapy sessions through our private and secure platform</p>
           </div>
-            
-          <!-- Feature 3 Section -->
-          <div class="feature-card">
-            <div class="feature-icon">📅</div>
-            <h3>Flexible Scheduling</h3>
-            <p>Choose a time that works for you with evening and weekend sessions available</p>
+          <div style="background:#FFFFFF; padding:40px 30px; border-radius:10px; text-align:center; box-shadow:0 5px 20px rgba(0,0,0,0.08);">
+            <div style="font-size:48px; margin-bottom:20px; color:#6C5CE7;">📅</div>
+            <h3 style="font-size:20px; margin-bottom:15px; color:#333333;">Flexible Scheduling</h3>
+            <p style="color:#636E72; font-size:14px;">Choose a time that works for you with evening and weekend sessions available</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Call-to-action section -->
-    <section class="cta-section">
-      <div class="container">
-        <h2>Ready To Start Your Session?</h2>
-        <a href="/bookings.html" class="btn">Book Now</a>
+    <!-- CTA Section -->
+    <section style="padding:80px 0; text-align:center; background:#FFFFFF;">
+      <div style="max-width:1200px; margin:0 auto; padding:0 20px;">
+        <h2 style="font-size:36px; margin-bottom:30px; color:#333333; font-family:'Montserrat', sans-serif;">Ready To Start Your Session?</h2>
+        <a href="/bookings.html" style="display:inline-block; padding:14px 40px; background:#6C5CE7; color:#FFFFFF; text-decoration:none; border-radius:5px; font-weight:600; font-size:16px;">Book Now</a>
       </div>
     </section>
   </main>
 
-  <!-- ======= Footer  Section ======= -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-          
-        <!--  About column:  -->
-        <div class="footer-section">
-          <h3>About</h3>
-          <ul>
-            <li><a href="/about.html">Our Mission</a></li>
-            <li><a href="/about.html">Careers</a></li>
-            <li><a href="/about.html">Our Team</a></li>
+  <!-- Footer -->
+  <footer style="background:#2D3436; color:#FFFFFF; padding:50px 0 20px;">
+    <div style="max-width:1200px; margin:0 auto; padding:0 20px;">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:40px; margin-bottom:30px;">
+        <div>
+          <h3 style="margin-bottom:20px; font-size:18px;">About</h3>
+          <ul style="list-style:none; padding:0;">
+            <li><a href="/about.html" style="color:#B2BEC3; text-decoration:none; font-size:14px;">Our Mission</a></li>
+            <li><a href="/about.html" style="color:#B2BEC3; text-decoration:none; font-size:14px;">Careers</a></li>
+            <li><a href="/about.html" style="color:#B2BEC3; text-decoration:none; font-size:14px;">Our Team</a></li>
           </ul>
         </div>
-        <!--  Services column:  -->
-        <div class="footer-section">
-          <h3>Services</h3>
-          <ul>
-            <li><a href="#">Individual Therapy</a></li>
-            <li><a href="#">Couples Counseling</a></li>
-            <li><a href="#">Group Sessions</a></li>
-          </ul>
-        </div>
-        <!-- Contact column:  -->
-        <div class="footer-section">
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="/contact.html">Support</a></li>
-            <li><a href="/contact.html">Emergency</a></li>
-            <li><a href="/contact.html">Feedback</a></li>
-          </ul>
-        </div>
-          
-        <!-- FAQ Column -->
-        <div class="footer-section">
-          <h3>FAQ</h3>
-          <ul>
-            <li><a href="#">Getting Started</a></li>
-            <li><a href="#">Billing</a></li>
-            <li><a href="#">Privacy & Security</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Footer bottom line -->
-      <div class="footer-bottom">
-        <p>&copy; 2025 OnlineCounseling. All rights reserved</p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Link to external JavaScript file -->
-  <script src="/js/main.js"></script>
-</body>
-</html>
-
-
-
+        <div>
+          <h3 style="margin-bottom:20px; font-size:18px;">Services</h3>
+          <ul style="list-style:none; padding:0;">
+            <li><a href="#" style="color:#B2BEC3; text-decoration:none; font-size:14px;">Individual Therapy</a></li>
+            <li><a href="#" style="color:#B2BEC3; text-decoration:none; font-size:14px;">Couples
