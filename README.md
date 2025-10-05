@@ -1,5 +1,7 @@
-🌍 Online Counseling School – Group Project
+🌍 Online Counseling School Group Project
+
 💬 Project Purpose
+
 We building this platform to make mental health support more accessible, inclusive, and stigma-free for all people. Whether someone is facing stress, grief, anxiety, or simply needs someone to talk to, our online counseling homepage offers a safe digital space where help is just a click away.
 
 We design this homepage as the foundation for a broader digital counseling ecosystem—one that grows to include multilingual support, live chat, therapist directories, and mental health resources tailored to diverse communities.
